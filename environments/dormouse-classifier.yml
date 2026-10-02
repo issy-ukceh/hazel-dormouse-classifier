@@ -1,0 +1,14 @@
+name: dormouse-classifier
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - pip
+
+  - pip:
+      - opensoundscape==0.13.0
+      - onnxruntime==1.30.0
+      - wandb==0.30.0
+      - python-dotenv==1.2.4
